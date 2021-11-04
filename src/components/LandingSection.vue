@@ -1,3 +1,6 @@
 <template>
-    <h3> Landing section </h3>
+    <section id="landing">
+        <h3> Landing section </h3>
+    </section>
 </template>
+
