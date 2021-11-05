@@ -29,6 +29,12 @@ export default {
   }
   body {
     background-color: $color-background;
+
+    a {
+      outline: none;
+      text-decoration: none;
+      color: inherit;
+    }
   }
 </style>
 
