@@ -29,6 +29,7 @@ export default {
   }
   body {
     background-color: $color-background;
+    font-family: $font-primary;
 
     a {
       outline: none;

@@ -16,7 +16,7 @@
 
     .logo {
         font-size: 6rem;
-        font-family: $font-primary;
+        font-family: $font-secondary;
     }
     .links-container {
         align-items: center;
@@ -25,7 +25,7 @@
         justify-content: center;
 
         .nav-link { 
-            font-family: $font-secondary;
+            font-family: $font-primary;
             font-size: 1.7rem;
             padding: 0 5rem 0 5rem;
         }
