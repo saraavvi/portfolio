@@ -19,7 +19,7 @@
   background-image: linear-gradient($color-primary, $color-secondary);
   border-radius: 2rem;
   display: flex;
-  height: 55vh;
+  height: 75vh;
   justify-content: center;
   align-items: center;
 

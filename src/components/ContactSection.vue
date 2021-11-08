@@ -21,6 +21,7 @@
   }
   .contact-text {
     font-size: 5rem;
+    font-weight: normal;
   }
 }
 </style>
