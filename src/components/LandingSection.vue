@@ -5,10 +5,10 @@
         Hello, I’m Sara.<br />
         A creative thinker and a problem solver.
       </h1>
-      <h2 class="sub">
+      <p class="sub">
         I’m currently focusing on frontend and design but have experience in a
         broad set of areas such as backend and databas stuff.
-      </h2>
+      </p>
     </div>
   </section>
 </template>
