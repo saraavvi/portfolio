@@ -1,9 +1,10 @@
 <template>
-    <h2> portfolio page </h2>
+    <div class="container">
     <LandingSection />
     <AboutSection />
     <PortfolioSection />
     <ContactSection />
+    </div>
 </template>
 
 <script>
@@ -20,3 +21,11 @@ export default {
     }
 }
 </script>
+
+<style scoped lang="scss">
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 12rem 0 12rem;
+    }
+</style>
