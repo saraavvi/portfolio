@@ -1,6 +1,38 @@
 <template>
-    <section id="landing">
-        <h3> Landing section </h3>
-    </section>
+  <section id="landing">
+    <div class="heading-container">
+      <h1 class="heading">
+        Hello, I’m Sara.<br />
+        A creative thinker and a problem solver.
+      </h1>
+      <h2 class="sub">
+        I’m currently focusing on frontend and design but have experience in a
+        broad set of areas such as backend and databas stuff.
+      </h2>
+    </div>
+  </section>
 </template>
 
+<style scoped lang="scss">
+#landing {
+  margin-top: 5rem;
+  background-image: linear-gradient($color-primary, $color-secondary);
+  border-radius: 2rem;
+  display: flex;
+  height: 55vh;
+  justify-content: center;
+  align-items: center;
+
+  .heading-container {
+    padding: 3rem;
+
+    .heading {
+      font-family: $font-secondary;
+      font-size: 5rem;
+    }
+    .sub {
+      font-size: 2rem;
+    }
+  }
+}
+</style>
