@@ -5,38 +5,44 @@
 </template>
 
 <script>
-import TheHeader from "./components/TheHeader"
-import TheFooter from "./components/TheFooter"
-import ThePortfolioPage from "./pages/PortfolioPage"
+import TheHeader from "./components/TheHeader";
+import TheFooter from "./components/TheFooter";
+import ThePortfolioPage from "./pages/PortfolioPage";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     TheHeader,
     ThePortfolioPage,
-    TheFooter
-  }
-}
+    TheFooter,
+  },
+};
 </script>
 
 <style lang="scss">
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html {
-    font-size: 62.5%;
-  }
-  body {
-    background-color: $color-background;
-    font-family: $font-primary;
+* {
+  margin: 0;
+  padding: 0;
+}
 
-    a {
-      outline: none;
-      text-decoration: none;
-      color: inherit;
-    }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-background;
+  font-family: $font-primary;
+
+  a {
+    outline: none;
+    text-decoration: none;
+    color: inherit;
   }
+}
 </style>
-
-
