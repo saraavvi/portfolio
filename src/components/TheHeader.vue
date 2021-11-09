@@ -13,9 +13,12 @@
 .nav {
   display: flex;
   padding: 0 16rem 0 16rem;
+  position: sticky;
+  top: 0;
+  background-color: $color-background;
 
   .logo {
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: $font-secondary;
   }
   .links-container {
@@ -23,12 +26,12 @@
     flex: 1;
     display: flex;
     justify-content: center;
-
-    .nav-link {
-      font-family: $font-primary;
-      font-size: 1.7rem;
-      padding: 0 5rem 0 5rem;
-    }
+  }
+  .nav-link {
+    font-family: $font-primary;
+    font-size: 1.7rem;
+    padding: 0 5rem 0 5rem;
+    font-weight: bold;
   }
 }
 </style>
