@@ -28,9 +28,9 @@
     justify-content: center;
   }
   .nav-link {
-    font-family: $font-primary;
+    @include hover-underline;
     font-size: 1.7rem;
-    padding: 0 5rem 0 5rem;
+    padding: 1rem 5rem;
     font-weight: bold;
   }
 }

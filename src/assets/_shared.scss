@@ -1,10 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Zen+Kaku+Gothic+New&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Zen+Kaku+Gothic+New&display=swap");
 
-$font-primary: 'Zen Kaku Gothic New', sans-serif;
-$font-secondary: 'Arima Madurai', cursive;
+$font-primary: "Zen Kaku Gothic New", sans-serif;
+$font-secondary: "Arima Madurai", cursive;
 
 $color-background: #fefaf6;
 $color-primary: #ffeaee;
 $color-secondary: #dacdff;
 $color-pop-sunny: #ffeec4;
 $color-pop-night: #142c69;
+
+@mixin hover-underline {
+  transition: transform 200ms;
+  position: relative;
+  display: inline-block;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  &:after {
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    bottom: 0;
+    content: "";
+    display: block;
+    background-color: $color-secondary;
+    height: 0.5rem;
+    left: 50%;
+    position: absolute;
+    width: 0;
+  }
+
+  &:hover:after {
+    width: 50%;
+    left: 25%;
+  }
+}
