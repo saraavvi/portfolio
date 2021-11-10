@@ -27,6 +27,9 @@ export default {
   display: flex;
   flex-direction: column;
   margin: 0 16rem 0 16rem;
+  font-size: 1.7rem;
+  line-height: 1.8;
+  color: $color-font-black;
 
   .section {
     margin-bottom: 10rem;

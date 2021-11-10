@@ -74,11 +74,12 @@ export default {
 
 <style scoped lang="scss">
 #about {
-  font-size: 2rem;
   text-align: center;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 2rem;
   padding: 6rem 0;
+
+  @include hover-lift;
+
   .heading {
     margin-bottom: 4rem;
     font-size: 4rem;
@@ -87,6 +88,7 @@ export default {
   .heading-sub {
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color: $color-font-black;
   }
   .me-container {
     align-items: center;
@@ -97,10 +99,12 @@ export default {
 
     .me-intro {
       flex: 1.5;
+      color: $color-font-grey;
     }
     .me-part {
       padding: 0 5rem;
       flex: 1;
+      color: $color-font-grey;
     }
   }
   .skills-container {

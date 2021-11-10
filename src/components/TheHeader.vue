@@ -16,6 +16,7 @@
   position: sticky;
   top: 0;
   background-color: $color-background;
+  z-index: 1000;
 
   .logo {
     font-size: 4rem;

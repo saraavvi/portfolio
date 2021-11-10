@@ -23,6 +23,8 @@
   justify-content: center;
   align-items: center;
 
+  @include hover-lift;
+
   .heading-container {
     padding: 3rem;
 
