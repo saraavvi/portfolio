@@ -9,12 +9,14 @@ $color-secondary: #dacdff;
 $color-pop-sunny: #ffeec4;
 $color-pop-night: #142c69;
 
+$color-font-black: rgb(0, 0, 0);
+$color-font-grey: rgb(77, 77, 77);
+
 @mixin hover-underline {
   transition: transform 200ms;
   position: relative;
   display: inline-block;
-
-  &:hover {
+  s &:hover {
     transform: translateY(-2px);
   }
 
@@ -33,5 +35,12 @@ $color-pop-night: #142c69;
   &:hover:after {
     width: 50%;
     left: 25%;
+  }
+}
+
+@mixin hover-lift {
+  transition: transform 400ms;
+  &:hover {
+    transform: translateY(-3px);
   }
 }
