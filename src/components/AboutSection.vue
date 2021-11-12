@@ -77,6 +77,7 @@ export default {
   text-align: center;
   border-radius: 2rem;
   padding: 6rem 0;
+  box-shadow: $box-shadow;
 
   @include hover-lift;
 

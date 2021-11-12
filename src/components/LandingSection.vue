@@ -22,6 +22,7 @@
   height: 75vh;
   justify-content: center;
   align-items: center;
+  box-shadow: $box-shadow;
 
   @include hover-lift;
 
