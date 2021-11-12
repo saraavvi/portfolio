@@ -12,6 +12,8 @@ $color-pop-night: #142c69;
 $color-font-black: rgb(0, 0, 0);
 $color-font-grey: rgb(77, 77, 77);
 
+$box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 @mixin hover-underline {
   transition: transform 200ms;
   position: relative;
