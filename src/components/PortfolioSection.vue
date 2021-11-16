@@ -19,13 +19,13 @@ export default {
       projects: {
         weatherForecast: {
           description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a accusantium perspiciatis harum quisquam possimus tempora libero vel eius ullam, nostrum repellat eveniet optio corrupti labore. Vel soluta odio esse!",
+            "I created this simple weather app to practice working with React, but also because I wanted to practice using external APIs. In this app I worked with openWeatherMap API to display the weather forecast for the next 5 days. The user can search for a city and get a forecast! ",
           image: "weather-forecast",
           name: "Weather Forecast",
         },
         manCave: {
           description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a accusantium perspiciatis harum quisquam possimus tempora libero vel eius ullam, nostrum repellat eveniet optio corrupti labore. Vel soluta odio esse!",
+            "The mancave shop was a school assignment where the task was to create a webshop in plain PHP using OOP and implementing the MVC concept. We used mySQL for storing all data. A user can login, add producs to a shopping cart and place an order. There is also an admin interface for handling products and orders.   ",
           image: "mancave",
           name: "Mancave",
         },
