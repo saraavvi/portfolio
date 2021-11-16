@@ -1,0 +1,32 @@
+@mixin hover-underline($color) {
+  transition: transform 200ms;
+  position: relative;
+  display: inline-block;
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  &:after {
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    bottom: 0;
+    content: "";
+    display: block;
+    background-color: $color;
+    height: 0.5rem;
+    left: 50%;
+    position: absolute;
+    width: 0;
+  }
+
+  &:hover:after {
+    width: 50%;
+    left: 25%;
+  }
+}
+
+@mixin hover-lift {
+  transition: transform 400ms;
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
