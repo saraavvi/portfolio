@@ -29,7 +29,7 @@
     justify-content: center;
   }
   .nav-link {
-    @include hover-underline;
+    @include hover-underline($color-secondary);
     font-size: 1.7rem;
     padding: 1rem 5rem;
     font-weight: bold;
