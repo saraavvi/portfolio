@@ -9,8 +9,10 @@
         {{ description }}
       </p>
       <div class="button-container">
-        <button class="button">Github</button>
-        <button class="button">View it live</button>
+        <button class="button"><a :href="githubLink">Github</a></button>
+        <button class="button">
+          <a :href="hostedLink">View it live</a>
+        </button>
       </div>
     </div>
   </div>
@@ -26,6 +28,12 @@ export default {
       type: String,
     },
     description: {
+      type: String,
+    },
+    githubLink: {
+      type: String,
+    },
+    hostedLink: {
       type: String,
     },
   },
