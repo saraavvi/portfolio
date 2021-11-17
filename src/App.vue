@@ -32,6 +32,13 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-padding-top: 10rem;
+
+  @include respond(tab-land) {
+    font-size: 56.29%;
+  }
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
 }
 
 body {

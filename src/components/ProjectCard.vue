@@ -48,27 +48,69 @@ export default {
 
   @include hover-lift;
 
+  @include respond(tab-port) {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
   .image-container {
-    top: 3rem;
     height: 100%;
     padding: 3rem;
+    align-self: center;
+
+    @include respond(desktop) {
+      height: 95%;
+    }
+    @include respond(tab-land) {
+      height: 70%;
+    }
+    @include respond(tab-port) {
+      height: 50%;
+      width: 100%;
+    }
 
     .image {
       border-radius: 2rem;
       object-fit: contain;
       box-shadow: $box-shadow;
       height: 100%;
+
+      @include respond(tab-port) {
+        height: auto;
+        width: 100%;
+      }
     }
   }
   .description-container {
-    padding: 3rem 4rem;
+    padding: 3rem 5rem;
     display: flex;
     flex-direction: column;
+
+    @include respond(desktop) {
+      padding-left: 0rem;
+    }
+    @include respond(tab-land) {
+      align-self: center;
+    }
+    @include respond(tab-port) {
+      padding: 5rem;
+    }
+
+    .description {
+      min-width: 40rem;
+    }
 
     .heading {
       font-family: $font-secondary;
       font-size: 5rem;
       margin-bottom: 2rem;
+
+      @include respond(desktop) {
+        margin-bottom: 0rem;
+      }
+      @include respond(tab-land) {
+        font-size: 4rem;
+      }
     }
     .button-container {
       display: flex;

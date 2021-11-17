@@ -31,6 +31,10 @@ export default {
   margin: 0 auto;
   max-width: 180rem;
 
+  @include respond(desktop) {
+    width: 90%;
+  }
+
   .section {
     margin-bottom: 20rem;
   }

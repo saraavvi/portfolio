@@ -58,18 +58,38 @@ export default {
   display: flex;
   justify-content: center;
 
+  @include respond(tab-port) {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  @include respond(desktop) {
+    padding: 10rem 30rem;
+  }
+
   .image {
     height: 50rem;
     border-radius: 2rem;
     box-shadow: $box-shadow;
+
+    @include respond(tab-port) {
+      height: 60rem;
+      transform: rotate(-90deg);
+    }
   }
 
   .about-info {
     padding-left: 10rem;
     min-width: 60rem;
+    max-width: 60rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @include respond(tab-port) {
+      padding-left: 0;
+      min-width: 60rem;
+    }
 
     .about-skills {
       display: flex;
@@ -87,6 +107,10 @@ export default {
       display: flex;
       flex-wrap: wrap;
       list-style: none;
+
+      @include respond(tab-port) {
+        justify-content: center;
+      }
     }
 
     .skills-item {
