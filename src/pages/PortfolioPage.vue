@@ -32,7 +32,7 @@ export default {
   max-width: 180rem;
 
   .section {
-    margin-bottom: 25rem;
+    margin-bottom: 20rem;
   }
 }
 </style>

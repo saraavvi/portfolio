@@ -52,12 +52,11 @@ export default {
 
 <style scoped lang="scss">
 #about {
-  padding: 6rem 0;
+  padding: 14rem 30rem;
   color: $color-font-grey;
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 0 30rem;
 
   .image {
     height: 50rem;
