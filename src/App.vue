@@ -30,6 +30,8 @@ export default {
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
 }
 
 body {
