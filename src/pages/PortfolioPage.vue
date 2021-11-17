@@ -24,15 +24,15 @@ export default {
 
 <style scoped lang="scss">
 .container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 16rem 0 16rem;
   font-size: 1.7rem;
   line-height: 1.8;
   color: $color-font-black;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 180rem;
 
   .section {
-    margin-bottom: 10rem;
+    margin-bottom: 25rem;
   }
 }
 </style>
