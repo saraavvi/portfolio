@@ -29,7 +29,7 @@ export default {
         },
         manCave: {
           description:
-            "The mancave shop was a school assignment where the task was to create a webshop in plain PHP using OOP and implementing the MVC concept. We used mySQL for storing all data. A user can login, add producs to a shopping cart and place an order. There is also an admin interface for handling products and orders.   ",
+            "The mancave shop was a school assignment where the task was to create a webshop in plain PHP, using OOP and implementing the MVC concept. We used MySQL for storing all the data. A user can login, add producs to a shopping cart and place an order. There is also an admin interface for handling products and orders.   ",
           image: "mancave",
           name: "Mancave",
           githubLink: "https://github.com/saraavvi/mancave",

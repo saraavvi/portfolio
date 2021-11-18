@@ -6,8 +6,8 @@
         A creative thinker and a problem solver.
       </h1>
       <p class="sub">
-        I’m currently focusing on frontend and design but have experience in a
-        broad set of areas such as backend and databas stuff.
+        I’m currently focusing on the frontend and design, but have experience
+        in a broad set of areas such as backend and databas stuff.
       </p>
     </div>
   </section>
