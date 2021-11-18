@@ -1,15 +1,18 @@
 <template>
   <TheHeader />
+  <TheSidebar />
   <ThePortfolioPage />
 </template>
 
 <script>
 import TheHeader from "./components/TheHeader";
+import TheSidebar from "./components/TheSidebar";
 import ThePortfolioPage from "./pages/PortfolioPage";
 export default {
   name: "App",
   components: {
     TheHeader,
+    TheSidebar,
     ThePortfolioPage,
   },
 };
