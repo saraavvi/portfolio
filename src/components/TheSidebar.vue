@@ -42,9 +42,11 @@
   flex-direction: column;
   justify-content: space-between;
 
-  @include respond(desktop) {
-    bottom: 5rem;
-    right: 5rem;
+  @include respond(tab-land) {
+    height: 13rem;
+  }
+  @include respond(tab-port) {
+    display: none;
   }
 
   .icon {
