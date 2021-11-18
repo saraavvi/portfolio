@@ -37,6 +37,13 @@ export default {
 
   .section {
     margin-bottom: 20rem;
+
+    @include respond(tab-land) {
+      margin-bottom: 10rem;
+    }
+    @include respond(tab-port) {
+      margin-bottom: 5rem;
+    }
   }
 }
 </style>

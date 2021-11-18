@@ -22,14 +22,26 @@
   justify-content: center;
   padding: 14rem;
 
+  @include respond(phone) {
+    padding: 0rem;
+  }
+
   .text-container {
     min-width: 60rem;
     max-width: 50%;
     text-align: center;
+
+    @include respond(phone) {
+      min-width: 40rem;
+    }
   }
   .contact-text {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: normal;
+
+    @include respond(phone) {
+      font-size: 3rem;
+    }
   }
   .li-link {
     position: relative;

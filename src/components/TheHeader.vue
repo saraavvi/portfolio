@@ -12,15 +12,26 @@
 <style scoped lang="scss">
 .nav {
   display: flex;
-  padding: 0 16rem 0 16rem;
+  padding: 0rem 16rem;
   position: sticky;
   top: 0;
   background-color: $color-background;
   z-index: 1000;
 
+  @include respond(tab-port) {
+    padding: 0 8rem 0 8rem;
+  }
+  @include respond(phone) {
+    padding: 0;
+  }
+
   .logo {
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: $font-secondary;
+
+    @include respond(phone) {
+      display: none;
+    }
   }
   .links-container {
     align-items: center;
@@ -33,6 +44,10 @@
     font-size: 1.7rem;
     padding: 1rem 5rem;
     font-weight: bold;
+
+    @include respond(phone) {
+      padding: 2rem;
+    }
   }
 }
 </style>

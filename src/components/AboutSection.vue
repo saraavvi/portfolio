@@ -58,13 +58,16 @@ export default {
   display: flex;
   justify-content: center;
 
+  @include respond(desktop) {
+    padding: 10rem 30rem;
+  }
   @include respond(tab-port) {
     flex-direction: column-reverse;
     text-align: center;
+    padding: 5rem 30rem 0 30rem;
   }
-
-  @include respond(desktop) {
-    padding: 10rem 30rem;
+  @include respond(phone) {
+    padding: 0;
   }
 
   .image {
@@ -76,46 +79,53 @@ export default {
       height: 60rem;
       transform: rotate(-90deg);
     }
+    @include respond(phone) {
+      width: 70%;
+      height: auto;
+    }
+  }
+}
+
+.about-info {
+  padding-left: 10rem;
+  min-width: 60rem;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include respond(tab-port) {
+    padding-left: 0;
+    min-width: 60rem;
+  }
+  @include respond(phone) {
+    min-width: 30rem;
   }
 
-  .about-info {
-    padding-left: 10rem;
-    min-width: 60rem;
-    max-width: 60rem;
+  .about-skills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+  }
+
+  .heading {
+    font-size: 2rem;
+    padding: 2rem 0 1rem 0;
+    color: $color-font-black;
+    font-family: $font-secondary;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 
     @include respond(tab-port) {
-      padding-left: 0;
-      min-width: 60rem;
+      justify-content: center;
     }
+  }
 
-    .about-skills {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .heading {
-      font-size: 2rem;
-      padding: 2rem 0 1rem 0;
-      color: $color-font-black;
-      font-family: $font-secondary;
-    }
-
-    .skills-list {
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-
-      @include respond(tab-port) {
-        justify-content: center;
-      }
-    }
-
-    .skills-item {
-      padding: 0rem 3rem 1rem 0;
-    }
+  .skills-item {
+    padding: 0rem 3rem 1rem 0;
   }
 }
 </style>

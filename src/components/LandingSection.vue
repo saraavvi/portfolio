@@ -24,6 +24,10 @@
   align-items: center;
   box-shadow: $box-shadow;
 
+  @include respond(tab-port) {
+    height: 85vh;
+  }
+
   @include hover-lift;
 
   .heading-container {
@@ -32,6 +36,10 @@
     .heading {
       font-family: $font-secondary;
       font-size: 5rem;
+
+      @include respond(phone) {
+        font-size: 4rem;
+      }
     }
     .sub {
       font-size: 2rem;

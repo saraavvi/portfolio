@@ -1,7 +1,9 @@
 <template>
   <div class="project-container">
     <div class="image-container">
-      <img class="image" :src="'/images/' + image + '.png'" />
+      <a :href="hostedLink">
+        <img class="image" :src="'/images/' + image + '.png'" />
+      </a>
     </div>
     <div class="description-container">
       <h2 class="heading">{{ name }}</h2>
@@ -95,9 +97,17 @@ export default {
     @include respond(tab-port) {
       padding: 5rem;
     }
+    @include respond(phone) {
+      padding: 2rem;
+    }
 
     .description {
       min-width: 40rem;
+      color: $color-font-grey;
+
+      @include respond(phone) {
+        min-width: 30rem;
+      }
     }
 
     .heading {
