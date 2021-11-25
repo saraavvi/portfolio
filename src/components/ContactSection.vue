@@ -17,10 +17,13 @@
 
 <style scoped lang="scss">
 #contact {
+  background-color: $color-primary;
+  border-radius: 2rem;
   font-family: $font-secondary;
   display: flex;
   justify-content: center;
   padding: 14rem;
+  margin-bottom: 10rem;
 
   @include respond(phone) {
     padding: 0rem;
@@ -51,7 +54,7 @@
       position: absolute;
       bottom: 1rem;
       display: block;
-      background-color: $color-secondary;
+      background-color: $color-pop-sunny;
       height: 0.7rem;
       width: 100%;
       left: 0;

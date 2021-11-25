@@ -37,7 +37,7 @@ export default {
         },
         markdownReminders: {
           description:
-            "In this school assignment the task was to build a fullstack todo app using React, Express and MongoDB. A user can register and login to create its own set of lists. The lists can be updated with markdown.    ",
+            "In this school assignment the task was to build a fullstack todo app using React, Express and MongoDB. A user can register and login to create its own set of lists. The lists can be updated with markdown.",
           image: "markdown-reminders",
           name: "Markdown Reminders",
           githubLink: "https://github.com/saraavvi/todo-react-frontend",
@@ -53,6 +53,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#portfolio {
+  margin-bottom: 0rem;
+}
 .project-card {
   margin-bottom: 10rem;
   box-shadow: $box-shadow;

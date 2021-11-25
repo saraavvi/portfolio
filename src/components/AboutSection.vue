@@ -2,7 +2,7 @@
   <section id="about">
     <img class="image" src="/images/me.jpeg" />
     <div class="about-info">
-      <h2 class="heading">A little bit about me</h2>
+      <h2 class="heading">✨ A little bit about me</h2>
       <p>
         Hi, my name is Sara and I am a fullstack developer student, eager to
         learn everything about frontend development. I am at the end of a two
@@ -10,7 +10,7 @@
         internship at a company where, among other things, I get to learn about
         Vue &amp; CSS/Sass. When I'm not coding I like to spend time cooking or
         eating something delicious. I love exercising and really enjoy to go
-        hiking, do some yoga or a sweaty hiit session at the gym.
+        hiking, do some yoga, or workout at the gym.
       </p>
       <div class="about-skills">
         <h2 class="heading">Languages &amp; techniques I've used</h2>

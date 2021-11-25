@@ -1,5 +1,6 @@
 <template>
   <section id="landing">
+    <div class="sun"></div>
     <div class="heading-container">
       <h1 class="heading">
         Hello, I’m Sara.<br />
@@ -23,12 +24,22 @@
   justify-content: center;
   align-items: center;
   box-shadow: $box-shadow;
+  position: relative;
 
   @include respond(tab-port) {
     height: 85vh;
   }
 
   @include hover-lift;
+
+  .sun {
+    background: $color-pop-sunny;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 5rem;
+  }
 
   .heading-container {
     padding: 3rem;
