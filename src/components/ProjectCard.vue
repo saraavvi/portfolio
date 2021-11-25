@@ -114,8 +114,9 @@ export default {
       font-family: $font-secondary;
       font-size: 5rem;
       margin-bottom: 2rem;
-
+      white-space: nowrap;
       @include respond(desktop) {
+        font-size: 4rem;
         margin-bottom: 0rem;
       }
       @include respond(tab-land) {

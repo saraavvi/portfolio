@@ -40,7 +40,7 @@
     }
     .nav-link {
       @include hover-underline($color-secondary);
-      font-size: 1.7rem;
+      font-size: 1.9rem;
       padding: 1rem 5rem;
       font-weight: bold;
 

@@ -35,6 +35,14 @@ export default {
           githubLink: "https://github.com/saraavvi/mancave",
           hostedLink: "https://mancave-shop.herokuapp.com/",
         },
+        markdownReminders: {
+          description:
+            "In this school assignment the task was to build a fullstack todo app using React, Express and MongoDB. A user can register and login to create its own set of lists. The lists can be updated with markdown.    ",
+          image: "markdown-reminders",
+          name: "Markdown Reminders",
+          githubLink: "https://github.com/saraavvi/todo-react-frontend",
+          hostedLink: "https://mern-sara-todo.netlify.app/",
+        },
       },
     };
   },
